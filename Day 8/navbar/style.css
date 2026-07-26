@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#topbar{
+
+    height: 8vh;
+    width: 100vw;
+    background-color: blue;
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+#topbar_box1{
+    display: flex;
+    justify-content:space-around;
+    width: 50vw;
+
+}
+#topbar span a{
+   font-size: 1.4rem;
+   text-decoration: none;
+   color: white;
+}
+#topbar span i{
+    margin: 3px;
+}
+#topbar span #login:hover{
+    color: red;
+    
+}
+
+/* Navbar styling */
+
+ #navbar{
+    height: 20vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 1.3rem;
+} */
+
+ #menu{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ancher_tag{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 30px;
+}
+#btn{
+    height: 55px;
+    width: 160px;
+    
+} 
+
+#btn button{
+   background-color: blue;
+   color: white;
+   height: 55px;
+   width: 160px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+}
+
+/* Hero section */
+
+
+#hero_section{
+    height: 70vh;
+    width:100vw;
+    background-image: url("Cover letter.png");
+   
+}  
+
+
+
+  
+

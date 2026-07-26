@@ -1,0 +1,17 @@
+#container{
+    height: 800px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+   align-content: flex-start;
+    padding: 10px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(154, 90, 90);
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}

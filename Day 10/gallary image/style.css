@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to right, #041308, #0b3317);
+}
+#text{
+   flex-basis: 30%;
+}
+
+.heading{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+}
+.para{
+    color: #ddd;
+    text-align: center;
+    margin-top: 10px;
+}
+.gallary{
+    flex-basis: 60%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: 120px;
+}
+.box{
+    background-size: cover;
+    background-position: top;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

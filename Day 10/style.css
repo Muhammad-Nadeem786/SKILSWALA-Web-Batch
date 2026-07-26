@@ -1,0 +1,29 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,200px);
+    height: 90vh;
+    background-color: aqua;
+    border: 2px solid black;
+    
+}
+.box{
+    border: 2px solid black;
+}
+#box1{
+    grid-column: span 2;
+    background-color: brown;
+}
+#box2{
+    grid-row: span 2;
+    background-color: orange;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: green;
+}
+
+ 
+

@@ -1,0 +1,24 @@
+#container{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(84, 78, 78);
+    border: 5px solid green;
+    
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    overflow: auto;
+    color: white;
+    position: relative;
+    
+}
+img{
+    height: 200px;
+    width: 200px;
+   position: sticky;
+   top: 10px;
+   left: 10px;
+}
