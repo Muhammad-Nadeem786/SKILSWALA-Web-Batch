@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-family: "Work Sans", Arial, sans-serif;
+}
+#topbar{
+    padding: 10px 7vw;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#heading1{
+color: blue;
+font-size: 2rem;
+}
+#blue{
+    color: blue;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 12px;
+   
+}
+#navbar{
+display: flex;
+background-color: whitesmoke;
+}
+.navbar_list{
+    display: flex;
+    list-style: none;
+    padding: 20px 7vw;
+    color: black;
+    width: 70vw;
+   
+}
+.navbar_list li a{
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+.btn{
+    background-color:#FF8000;
+    padding: 17px 12px;
+    border-radius: 20px;
+    border: none;
+}
+#hero_section{
+    padding: 10px 7vw;
+    height: 90vh;
+    width: 85vw;
+    background-image: url(images/bg_2.jpg.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+#heading11{
+    font-size: 4rem;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+#heading22{
+    font-size: 4rem;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#para{
+    font-size: 1.2rem;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,300px);
+    height: 40vh;
+    width: 80vw;
+    text-align: center;
+    justify-content: center;
+    margin: 0 20px 0 100px;
+    position: relative;
+    bottom: 50px;
+    gap: 1px;
+    line-height: 4vh;
+   
+}
+.box{
+    background-color: blue;
+    border: none;
+}
+#inside_box{
+    padding: 20px;
+}
+#inside_box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #FAFAFA;
+}
+.heading_iside_box{
+    font-size: 1.2rem;
+    color: white;
+}
+.para_inside{
+    color: white;
+}
+
+
+/* About section */
+
+#about_section{
+    padding:10px 8vw;
+    display: flex;
+    align-items: center;
+    line-height: 5vh;
+
+
+}
+
+#about_bg{
+    position: relative;
+    top: 5px;
+}
+
+#about_text{
+    padding: 10px 5vw;
+    align-items: center;
+    justify-content: center;
+}
+#about_para{
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+}
+#about_headng{
+    font-size: 1.3rem;
+    margin-bottom: 10vh;
+}
+
+#about_boxses{
+height: 300px;
+width: 400px;
+border: 2px solid black;
+}
+
+#about_boxses img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+}
+
+
+/* card */
+.about_card{
+    display: grid;
+    grid-template-columns:90px 150px 90px 150px;
+    grid-template-rows: auto;
+    margin-top: 10vh;
+    gap: 15px;
+
+}
+#card_icon{
+    height: 50px;
+    width: 50px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    color: blue;
+}
+
+/* services */
+
+#services{
+height: 30vh;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+/*service*/
+#service{
+    background-color: rgb(74, 74, 168);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    
+}
+
+#service_txt{
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+
+#service h4{
+    font-size: 1.5rem;
+    color: white;
+}
+
+#service p{
+    font-size: 0.8rem;
+    color: white;
+}
+
+
+/* department_section */
+
+.department{
+    padding: 10px 7vw;
+}
+#department_txt{
+    text-align: center;
+    line-height: 2.5rem;
+    margin-top: 5vh;
+}
+
+
+
+#department_nav{
+    height: 15vh;
+    width: 80vw;
+    color: black;
+    background-color:#0000000D;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+   padding-left: 5vw; 
+   position: relative;
+   top: 10vh;
+   margin-bottom: 9vh;
+}
+#nav_bx_neurology{
+   height: 14vh;
+   width: 200px;
+   background-color: blue;
+   font-size: 3rem;
+   text-align: center;
+
+  
+}
+.nav_bx:hover{
+   height: 14vh;
+   width: 200px;
+   font-size: 3rem;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+
+/* card */
+
+#card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1px;
+    padding: 4vh 3vw;
+}
+.card_bx{
+    height: 200px;
+}
+
+
+/* about doctors */
+
+
+#about_doctor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px 7vw;
+    align-items: center;
+    margin-left: 5rem;
+    position: relative;
+    bottom:5rem;
+
+}
+#doctor{
+    height: 200px;
+    line-height: 1.5rem;
+   padding: 2rem 3rem;
+}
+#doctor p{
+    font-size: 25px;
+}
+#doctor p{
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+
