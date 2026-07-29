@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family:poopins,sans-serif;
+}
+#web_container{
+    width: 100%;
+}
+#wellcome_hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/welcome-banner.jpg);
+    background-size: cover;
+}
+#wellcome_baner{
+    background-color:rgba(42, 45, 84, .60);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    opacity: 1;
+}
+#wellcome_navbar{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    /* align-items: center; */
+   
+}
+#wellcome_navbar a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    /* margin-right: 16vw; */
+    /* padding-left: 7vw; */
+}
+#nav_items ul li{
+    color: #FFFFFF;
+    display: inline;
+    margin-right: 5vw;
+    font-size: 20px;
+
+}
+#nav_items ul li:hover{
+    color: #4E4FFA;
+    transition-duration: 1s;
+}
+#banner_txt{
+    padding: 20vh 14vw;
+    line-height: 2rem;
+}
+#banner_txt h2{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+#banner_txt p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    max-width: 735px;
+    margin: 0 auto;
+}
+#wellcome_btn{
+    display: inline-block;
+    width: 230px;
+    height: 60px;
+    background: #4e4ffa;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 55px;
+    margin-left: 30vw;
+    border: none;
+}
+#wellcome_btn:hover{
+   background-color: blue; 
+   transition: 1s;
+}
+
+/*----------------------------------about_car-----------------------------------*/
+
+#about_car{
+    background-color:#fff;
+    box-shadow: 12px 12px 30px gray,inset 6px 6px 30px gray;
+    height: 60vh;
+    width: 90%;
+    margin: 0px 5vw;
+    position: relative;
+    bottom: 7vh;
+}
+
+/*-------------------------------------------about dealership------------------------------------*/
+#dealer{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 400px;
+    padding: 10px 9vw;
+    gap: 30px;
+    margin-top: 20vh;
+    color: #818998;
+
+}
+.bx{
+    border: 1px solid #444A57;
+    text-align: center;
+}
+.bx i{
+    font-size: 40px;
+    /* color: #444A57; */
+    margin-top: 8vh;
+}
+.bx h2{
+    font-size: 1.7rem;
+    /* color:#444A57 ; */
+    margin-top: 6vh;
+}
+.bx p{
+    /* color: #818998; */
+    margin-top: 7vh;
+    font-size: 20px;
+}
+.bx #dash{
+    width: 15px;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -10px;
+    font-size: 4rem;
+    color: #4E4FFA;
+    
+}
+.bx:hover{
+    background-color: #4E4FFA;
+    color: #fff;
+    transition: .3s linear;
+}
+
+/*------------------------------------new_cars----------------------------------*/
+#new_cars{
+    width: 100%;
+    height: 100vh;
+    background: #f8f9fb;
+    padding: 112px 0 120px;
+}
+#car_head{
+    text-align: center;
+    line-height: 3rem;
+}
+#car_head h2{
+    font-size: 36px;
+    font-weight: 500px;
+}
+#car{
+    display: grid;
+    grid-template-columns: 800px 400px;
+    grid-template-rows: 350px;
+    padding: 60px 4vw;
+}
+.car_clas{
+    
+}
+#car_img{
+    background-image:url(images/ncm1.png);
+    background-size: cover;
+}
+#car_txt{
+    text-align: center;
+    padding: 60px 20px;
+    
+}
+#car_txt a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400px;
+    color:#444A57;
+}
+#car_txt p{
+    font-size: 1rem;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: 1rem;
+    color: #444A57;
+}
+
+#Detail_btn{
+    width: 130px;
+    height: 50px;
+    background:#4E4FFA;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    margin-top: 2rem;
+}
+#Detail_btn:hover{
+    background-color:blue;
+    transition: 1s;
+}
+
+/*---------------------------car features-------------------------------*/
+
+#features_car{
+    background-color:white;
+    width: 100%;
+    height: 100vh;
+}
+#features{
+
+}
+#feature_txt{
+    text-align: center;
+    padding-top: 10vh;
+}
+#feature_txt h2{
+    font-size: 30px;
+    font-weight: 500px;
+    color: #444A57;
+    margin-top: 3vh;
+}
