@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.apply{
+    max-width: 600px;
+   padding: 30px;
+   background-color: white;
+   margin: 50px auto;
+   border-radius: 15px;
+   
+}
+#small_txt{
+    font-size: 20px;
+}
+.form_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+    
+}

@@ -1,0 +1,11 @@
+input{
+    padding: 10px 40px;
+    margin: 5px 0px;
+}
+
+fieldset{
+    background-color: beige;
+    width: 600px;
+    height: 400px;
+    
+}
